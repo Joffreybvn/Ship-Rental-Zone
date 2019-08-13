@@ -1,0 +1,175 @@
+
+.slider {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.slider-images {
+    position: relative;
+    width: 500%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 16s slide infinite;
+}
+
+@keyframes slide {
+    0% { left: 0; }
+    20% { left: 0; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+.slider-images div {
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sl_1 {
+    background-image: url("../images/slide/01.jpg");
+}
+
+#sl_2 {
+    background-image: url("../images/slide/02.jpg");
+}
+
+#sl_3 {
+    background-image: url("../images/slide/03.jpg");
+}
+
+#sl_4 {
+    background-image: url("../images/slide/04.jpg");
+}
+
+#sl_5 {
+    background-image: url("../images/slide/05.jpg");
+}
+
+.get-ship {
+    background: #f8f8f8;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+
+.get-ship h2 {
+    text-align: center;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.get-ship h2 span {
+    font-weight: 700;
+}
+
+.detail-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-column {
+    width: 33.33333333%;
+}
+
+.detail-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.detail-image img {
+    width: 90%;
+}
+
+.detail-text {
+    padding-top: 76px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.detail-text li {
+    margin-bottom: 20px;
+}
+
+.detail-column {
+    margin-bottom: 20px;
+}
+
+.detail-left span {
+    float: left;
+    margin-right: 15px;
+}
+
+.detail-right span {
+    float: right;
+    margin-left: 15px;
+}
+
+.offer-icon {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: 4px 5px 8px 0 #f3f3f3;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+.offer-icon i {
+    color: #fdcb12;
+    font-size: 36px;
+}
+
+.offer-detail {
+    float: right;
+    width: 74%;
+}
+
+.offer-detail h3 {
+    font-size: 24px;
+    color: #3f2c25;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.divider-dotted {
+    width: 100%;
+    height: 1px;
+    background: url(../images/dot-pattern.jpg) left top repeat-x;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.divider-dotted::after {
+    content: " ";
+    position: absolute;
+    bottom: -8px;
+    right: -17px;
+    border: 4px solid #ffffff;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #fdcb12;
+}
+
+.detail-right .divider-dotted::after {
+    left: -17px;
+}

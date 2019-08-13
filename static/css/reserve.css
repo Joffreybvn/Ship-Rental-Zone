@@ -1,0 +1,144 @@
+.reserve-form {
+    position: absolute;
+    top: calc(100% - 100px);
+    left: 0;
+    right: 0;
+}
+
+.reserve-form-wrap {
+    background: #080808;
+    padding: 25px 30px 23px 30px;
+    border-bottom: 3px solid #fdcb12;
+    overflow: hidden;
+}
+
+.form-head {
+    padding-bottom: 27px;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+.location {
+    float: left;
+}
+
+.location h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    margin: 0 8px 0 0;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.availability {
+    float: right;
+}
+
+.availability h2 {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ecac4a;
+    text-transform: capitalize;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+.availability h2 span {
+    color: #fff;
+}
+
+.reserve-form-wrap form {
+    padding: 25px 0 0 0;
+}
+
+.input-container {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.input-line {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.reserve-form-wrap form label {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 14px;
+    float: left;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.sub-input {
+    display: flex;
+}
+
+.sub-input::after {
+    content: 'Day(s)';
+    position: absolute;
+    right: 1em;
+    color: #c5c5c5;
+    line-height: 42px;
+    background: transparent;
+}
+
+.input input, .input select, .sub-input::after {
+    height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.input input, .input select {
+    width: 100%;
+    color: #fff;
+    line-height: 1.5;
+    background-color: #2d2d2d;
+    border-radius: 0;
+    padding: 0 38px 0 20px;
+    float: left;
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.input input:focus, .input select:focus {
+    background: rgba(45,45,45,0.5);
+    transition: all 0.2s ease 0s;
+}
+
+.input-line button {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #a27103;
+    padding: 15px 78px;
+    border: none;
+    color: #fff;
+    width: 30%;
+    margin: 21px 0 0;
+}
+
+.input-line button:hover {
+    background: #d69d03;
+}
+
+.input-short {
+    padding-right: 60px !important;
+}

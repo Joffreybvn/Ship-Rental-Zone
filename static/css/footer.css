@@ -1,0 +1,80 @@
+
+footer {
+    padding: 75px 0;
+    border-top: 3px solid #fdcb12;;
+    background-size: cover;
+    background: #080808;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-row p {
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer-btn {
+    background: #a27103;;
+    text-align: center;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    min-height: 42px;
+    line-height: 30px;
+    min-width: 170px;
+    letter-spacing: 1px;
+}
+
+.footer-btn:hover {
+    background: #d69d03;;
+}
+
+footer span {
+    display: block;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    color: #ffffff;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+footer strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 1;
+    color: #ffffff;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.footer-ships {
+    display: flex;
+    justify-content: space-between;
+    background: url(../images/line-bg2.png) left top repeat-x, url(../images/line-bg2.png) left bottom repeat-x;
+    padding: 20px 0;
+}
+
+.footer-ships li {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5em;
+}

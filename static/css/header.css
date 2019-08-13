@@ -1,0 +1,138 @@
+header {
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.col-header {
+    width: 100%;
+    float: left;
+}
+
+.header-content {
+    background-color: #fff;
+}
+
+.logo {
+    float: left;
+    margin-left: 0;
+    position: relative;
+    width: 19.7%;
+    background: #000;
+}
+
+.logo img {
+    display: block;
+}
+
+.header-info, .social-details, .private {
+    float: right;
+    display: inline-block;
+}
+
+.header-info {
+    width: 80.3%;
+    padding: 0 24px 0 22px;
+}
+
+.social-content {
+    padding: 20px 0 20px 0;
+}
+
+.contact-details {
+    float: left;
+}
+
+.private {
+    margin: 2px 0 0 5px;
+}
+
+.private a span {
+    font-size: 13px;
+    font-family: 'Open Sans', serif;
+    color: #3f2c25;
+    margin-right: 9px;
+    vertical-align: top;
+}
+
+.fa-lock {
+    font-size: 14px;
+}
+
+.contact-details ul li {
+    display: inline-block;
+    float: left;
+    line-height: 12px;
+    color: rgba(27, 25, 25, 0.5);
+}
+
+.contact-details ul li a {
+    font-size: 13px;
+    color: rgba(27, 25, 25, 0.5);
+    font-family: 'Open Sans', serif;
+    padding: 0 12px 0 8px;
+}
+
+.contact-details ul li:first-child a {
+    padding-left: 0;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 42px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-top: 1px solid #f5efec;
+}
+@media (min-width: 768px) {
+  nav {
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        display: block;
+        height: auto;
+        padding-bottom: 0;
+        overflow: visible;
+        width: auto;
+        border-top: 0;
+        box-shadow: none;
+    }
+}
+.navbar {
+    padding: 0;
+}
+
+.navigation {
+    float: left;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navigation > li:first-child {
+    padding-left: 2px;
+}
+
+.navigation > li {
+    float: left;
+    padding: 22px 28px 21px 13px;
+    line-height: 12px;
+    position: relative;
+}
+
+.navigation li.active > a {
+    color: #ecac4a;
+}
+
+.navigation li a {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Open Sans', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}

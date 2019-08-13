@@ -1,0 +1,115 @@
+
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+nav, section {
+    display: block;
+}
+
+html, body, div, header, footer, p, img, ul, li, nav, section, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ol, ul, dl {
+    font-size: 100%;
+    line-height: 1.5;
+    list-style: none;
+}
+
+button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    line-height: normal;
+    overflow: visible;
+}
+
+input, button, select {
+    outline: none;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #81716b;
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.container::before, .row::before, clearfix:before, nav::before {
+    display: table;
+    content: " ";
+}
+
+/* Responsive container*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
